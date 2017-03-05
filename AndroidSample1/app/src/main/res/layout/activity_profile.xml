@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pgpgpg" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pgpgpg">
+
+        <RelativeLayout
+            android:id="@+id/abhi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#E6FFFFFF"
+            android:orientation="vertical" >
+
+            <include  layout="@layout/header" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/white"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:text="Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="37dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/textview" />
+
+                <TextView
+                    android:text=" 123-123-12345"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/textview1"
+                    android:layout_below="@+id/textview"
+                    android:layout_toEndOf="@+id/textview" />
+
+                <TextView
+                    android:text=" s123456@mail.nwmissouri.edu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/textview2"
+                    android:layout_alignTop="@+id/txt2"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:text="Northwest Missouri State University"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textview2"
+                    android:layout_marginTop="8dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/textview3"
+                    android:layout_alignStart="@+id/textview2" />
+
+                <TextView
+                    android:text="Organization: Alpha Beta Gamma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/textview4"
+                    android:layout_below="@+id/textview3"
+                    android:layout_toEndOf="@+id/txt4" />
+
+
+                <TextView
+                    android:text="edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="40dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Phone"
+                    android:id="@+id/txt1"
+                    android:textColor="@color/black"
+                    android:layout_alignBottom="@+id/textview1"
+                    android:layout_toStartOf="@+id/textview1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Mail"
+                    android:id="@+id/txt2"
+                    android:textColor="@color/black"
+                    android:layout_above="@+id/txt3"
+                    android:layout_alignStart="@+id/txt1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Location:"
+                    android:textColor="@color/black"
+                    android:id="@+id/txt3"
+                    android:layout_centerVertical="true"
+                    android:layout_alignStart="@+id/textview" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Oraganization:"
+                    android:id="@+id/txt4"
+                    android:textColor="@color/black"
+                    android:layout_alignTop="@+id/textview4"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <include layout="@layout/slidemenu1" />
+</android.support.v4.widget.DrawerLayout>

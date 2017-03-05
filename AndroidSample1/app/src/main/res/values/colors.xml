@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="thick_haash">#7F7C7B</color>
+    <color name="blue_background">#009897</color>
+    <color name="aash">#cbd1d1</color>
+    <color name="orange">#ff6600</color>
+    <color name="black">#000000</color>
+    <color name="red">#c70c2a</color>
+    <color name="blue">#221D81</color>
+    <color name="white">#FFFFFF</color>
+    <color name="splash_bg">#0095a4</color>
+    <color name="hash">#F6F6F6</color>
+    <color name="hash1">#AAAAAA</color>
+    <color name="hash2">#3D3D3D</color>
+    <color name="green">#50B75C</color>
+    <color name="colorPrimary">#009897</color>
+    <color name="colorPrimaryDark">#0095a4</color>
+    <color name="colorAccent">#92e49c</color>
+    <color name="active_color">#f49f1c</color>
+    <color name="transparent_background">#00FF0000</color>
+    <color name="light_blue">#5bd3e1</color>
+    <color name="grey">#190718</color>
+    <color name="line">#b8b8b8</color>
+    <color name="bluesearch">#34BBF5</color>
+    <color name="bgcategory">#E6E6E6</color>
+    <color name="footer">#5a5a5d</color>
+    <color name="bluelight">#0E5EB5</color>
+    <color name="whatsapp">#065E52</color>
+    <color name="app_green">#21BBA6</color>
+</resources>
+
+

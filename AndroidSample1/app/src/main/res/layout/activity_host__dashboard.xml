@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pgpgpg" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/pgpgpg">
+    
+      <RelativeLayout
+          android:id="@+id/abhi"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:background="#E6FFFFFF"
+          android:orientation="vertical" >
+
+          <include layout="@layout/header" />
+          
+          <ScrollView 
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_below="@+id/header"
+              android:layout_above="@+id/below">
+         <RelativeLayout
+          android:id="@+id/a"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+        
+          
+           <LinearLayout
+               android:id="@+id/one"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:layout_below="@+id/header"
+              android:layout_centerHorizontal="true" >
+              
+                <RelativeLayout
+                  android:id="@+id/accident"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25"
+                  android:background="@color/hash2" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/hash_user" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignRight="@+id/imageView1"
+                        android:layout_marginTop="14dp"
+                        android:src="@drawable/green_circle" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="Joe \n Tracker" />
+
+                   
+              </RelativeLayout>
+              
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"/>
+
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25"
+                 android:background="@color/hash2" >
+
+                    <ImageView
+                        android:id="@+id/img_hash"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/hash_user" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignRight="@+id/img_hash"
+                        android:layout_marginTop="14dp"
+                        android:src="@drawable/green_circle" />
+                    
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="Kyle \n Whitmer" />
+              </RelativeLayout>
+
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"/>
+                
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25"
+                       android:background="@color/hash2" >
+
+                    <ImageView
+                        android:id="@+id/img_hash1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/hash_user" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignRight="@+id/img_hash1"
+                        android:layout_marginTop="14dp"
+                        android:src="@drawable/white_circle" />
+                    
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="Connor \n Whitney" />
+              </RelativeLayout>
+          </LinearLayout>
+          
+           
+              <TextView 
+                  android:id="@+id/line"
+                    android:layout_width="match_parent" 
+                    android:layout_height="1dp"
+                    android:background="@color/hash2"
+                    android:layout_below="@+id/one"/>
+           
+           
+            <LinearLayout
+               android:id="@+id/two"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:layout_below="@+id/line"
+              android:layout_centerHorizontal="true" >
+              
+                <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25" >
+
+              </RelativeLayout>
+              
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"/>
+
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25">
+
+                 
+              </RelativeLayout>
+
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"/>
+                
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25" >
+
+                   
+              </RelativeLayout>
+          </LinearLayout>
+
+            
+           <TextView 
+                  android:id="@+id/line1"
+                    android:layout_width="match_parent" 
+                    android:layout_height="1dp"
+                    android:background="@color/hash1"
+                    android:layout_below="@+id/two"/>
+           
+           
+            <LinearLayout
+               android:id="@+id/three"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:layout_below="@+id/line1"
+              android:layout_centerHorizontal="true" >
+              
+                <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25" >
+
+              </RelativeLayout>
+              
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"/>
+
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25">
+
+                 
+              </RelativeLayout>
+
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"/>
+                
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25" >
+
+              </RelativeLayout>
+          </LinearLayout>
+              <TextView 
+                  android:id="@+id/line2"
+                    android:layout_width="match_parent" 
+                    android:layout_height="1dp"
+                    android:background="@color/hash1"
+                    android:layout_below="@+id/three"/>
+              
+              
+              
+              
+                <LinearLayout
+               android:id="@+id/four"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:layout_below="@+id/line2"
+              android:layout_centerHorizontal="true" >
+              
+                <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25" >
+
+              </RelativeLayout>
+              
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"/>
+
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25">
+
+                 
+              </RelativeLayout>
+
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"/>
+                
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25" >
+
+              </RelativeLayout>
+          </LinearLayout>
+              <TextView 
+                  android:id="@+id/line3"
+                    android:layout_width="match_parent" 
+                    android:layout_height="1dp"
+                    android:background="@color/hash1"
+                    android:layout_below="@+id/four"/>
+              
+              
+              
+              
+              
+               <LinearLayout
+               android:id="@+id/five"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:layout_below="@+id/line3"
+              android:layout_centerHorizontal="true" >
+              
+                <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25" >
+
+              </RelativeLayout>
+              
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"/>
+
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25">
+
+                 
+              </RelativeLayout>
+
+                <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"/>
+                
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25" >
+
+              </RelativeLayout>
+          </LinearLayout>
+          <TextView 
+                  android:id="@+id/line4"
+                    android:layout_width="match_parent" 
+                    android:layout_height="1dp"
+                    android:background="@color/hash1"
+                    android:layout_below="@+id/five"/>
+               
+               
+               
+               
+               
+              </RelativeLayout> 
+          </ScrollView>     
+            
+          <LinearLayout
+              android:id="@+id/below"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true"
+              android:background="@drawable/background" >
+
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25" >
+
+                  <ImageView
+                      android:id="@+id/imageView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="5dp"
+                      android:src="@drawable/multiple_user" />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/imageView3"
+                      android:layout_centerHorizontal="true"
+                      android:textColor="@color/hash2"
+                      android:text="PG Team" />
+
+              </RelativeLayout>
+  <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+              <RelativeLayout
+                  android:id="@+id/rel_alert"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25">
+                  
+                    <ImageView
+                      android:id="@+id/img_two"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="5dp"
+                      android:src="@drawable/alert_pg" />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/img_two"
+                      android:layout_centerHorizontal="true"
+                      android:textColor="@color/hash2"
+                      android:text="Alerts" />
+              </RelativeLayout>
+  <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+              <RelativeLayout
+                  android:id="@+id/rel_hist"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25">
+                  
+                   <ImageView
+                      android:id="@+id/img_three"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="5dp"
+                      android:src="@drawable/history_pg" />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/img_three"
+                      android:layout_centerHorizontal="true"
+                      android:textColor="@color/hash2"
+                      android:text="History" />
+              </RelativeLayout>
+  <TextView 
+                    android:layout_width="1dp" 
+                    android:layout_height="match_parent"
+                    android:background="@color/hash1"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+              <RelativeLayout
+                  android:id="@+id/rel_profile"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="0.25">
+                  
+                    <ImageView
+                      android:id="@+id/img_four"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="5dp"
+                      android:src="@drawable/black_pg" />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/img_four"
+                      android:layout_centerHorizontal="true"
+                      android:textColor="@color/hash2"
+                      android:text="Profile" />
+              </RelativeLayout>
+          </LinearLayout>
+
+
+         
+      </RelativeLayout>
+
+</RelativeLayout>
+<include layout="@layout/slidemenu1" />
+</android.support.v4.widget.DrawerLayout>
